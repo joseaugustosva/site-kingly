@@ -1,0 +1,21 @@
+{
+  "name": "kingly",
+  "homepage": "kinglygelato.com.br",
+  "authors": [
+    "José Augusto <joseaugustosva@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
