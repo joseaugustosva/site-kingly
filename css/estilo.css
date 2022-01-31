@@ -6,9 +6,9 @@ html, body{
 
 body{
 	margin: 0;
-	/*background: url('../imagens/padrao-02.svg');*/
-	/*background-size: 110px;*/
-	/*background-repeat: repeat;*/
+	background: url('../imagens/padrao-02.svg');
+	background-size: 110px;
+	background-repeat: repeat;
 	background-color: #e40000;
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
