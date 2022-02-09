@@ -6,9 +6,7 @@ html, body{
 
 body{
 	margin: 0;
-	/*background: url('../imagens/padrao-02.svg');
-	background-size: 110px;
-	background-repeat: repeat;*/
+	background-repeat: repeat;
 	background-color: #e40000;
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
@@ -18,7 +16,7 @@ body{
 
 #logo{
 	width: 140px;
-	margin: 10px auto;
+	margin: 12px auto;
 }
 
 h2#titulo{
@@ -55,7 +53,7 @@ a:visited.kbtn{
 }
 
 a:active.kbtn{
-	color:#1F1F1F;
+	color: #1F1F1F;
 }
 
 a:hover.kbtn{
@@ -69,7 +67,7 @@ a:hover.kbtn{
 /*=== Footer ===*/
 
 footer{
-	margin: 150px 0px 20px 0px;
+	margin: 150px 0px 0px 0px;
 	text-align: center;	
 	color: white;
 
