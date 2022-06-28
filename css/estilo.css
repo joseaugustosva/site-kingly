@@ -1,78 +1,89 @@
-/*=== Layout ===*/	
+/*=== Layout ===*/
 
-html, body{
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-body{
-	margin: 0;
-	background-color: #e40000;
-	background-attachment: fixed;
-	font-family: Roboto,Arial,sans-serif;
+body {
+  margin: 0;
+  background-color: #fff;
+  background-attachment: fixed;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
-/*=== Logo ===*/	
-
-#logo{
-	width: 140px;
-	margin: 12px auto;
+.container-fluid {
+  margin-top: 50px;
 }
 
-h2#titulo{
-	text-align: center;
-	color: white;
-	padding-bottom: 25px;
+/*=== Logo ===*/
+
+#logo {
+  width: 140px;
+  margin: 10px auto;
+}
+
+h2#titulo {
+  text-align: center;
+  color: #e40000;
+}
+
+p {
+  color: #1f1f1f;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
 }
 
 /*=== Botões ===*/
 
-
-.kbtn{
-	border-radius: 25px;
-	padding: 13px;
-	border: none;
-	margin-bottom: 14px; 
-	background-color: white;
-	text-align: center;
-	font-size: 16px;
-	display: block;
+.kbtn {
+  display: block;
+  border-radius: 15px;
+  padding: 13px;
+  border: none;
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #1f1f1f;
+  max-width: 1fr;
 }
 
-a.kbtn{
-	text-decoration: none;
-	font-size: 16px;
+a.kbtn {
+  text-decoration: none;
+  font-size: 16px;
 }
 
-a:link.kbtn{
-	color: #1F1F1F;
+a:link.kbtn {
+  color: #1f1f1f;
 }
 
-a:visited.kbtn{
-	color: #1F1F1F;
+a:visited.kbtn {
+  color: #1f1f1f;
 }
 
-a:active.kbtn{
-	color: #1F1F1F;
+a:active.kbtn {
+  color: #1f1f1f;
 }
 
-a:hover.kbtn{
-	color: #1F1F1F;
+a:hover.kbtn {
+  color: #1f1f1f;
 }
 
-.lista{
-	justify-content: center;
+.lista {
+  justify-content: center;
 }
 
 /*=== Footer ===*/
 
-footer{
-	margin: 150px 0px 0px 0px;
-	text-align: center;	
-	color: white;
-
+footer {
+  margin: 150px 0px 0px 0px;
+  text-align: center;
+  color: #1f1f1f;
 }
 
-footer a, footer a:hover{
-	color: white;
-	text-decoration: none;
+footer a,
+footer a:hover {
+  color: #1f1f1f;
+  text-decoration: none;
 }
